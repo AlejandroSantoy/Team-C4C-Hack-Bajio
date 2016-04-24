@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>C4</title>
+    <meta name="description" content="Spirit8 is a Digital agency one page template built based on bootstrap framework. This template is design by Robert Berki and coded by Jenn Pereira. It is simple, mobile responsive, perfect for portfolio and agency websites. Get this for free exclusively at ThemeForces.com">
+    <meta name="keywords" content="bootstrap theme, portfolio template, digital agency, onepage, mobile responsive, spirit8, free website, free theme, themeforces themes, themeforces wordpress themes, themeforces bootstrap theme">
+    <meta name="author" content="ThemeForces.com">
+    
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Slider
+    ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+      <link rel="stylesheet" type="text/css" href="css/agency.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Navigation
+    ==========================================-->
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#tf-home" class="page-scroll">Home</a></li>
+            <li><a href="#tf-about" class="page-scroll">Conócenos</a></li>
+            <li><a href="#tf-testimonials" class="page-scroll">App C4C</a></li>
+            <li><a href="#tf-contact" class="page-scroll">Contáctanos</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- Home Page
+    ==========================================-->
+    <div id="tf-home" class="text-center">
+        <div class="overlay">
+            <div class="content">
+                <div class="formpad col-md-4">
+                   <div class="caption">
+                <form>
+                    <h3 class="formT">Calcula un aproximado de tu fondo de retiro</h3>
+                    <br>
+                    <fieldset class="form-group">
+                        <label for="exampleSelect1">Numero de años que deseas ahorrar</label>
+                        <select id="anosahorro" class="form-control" id="exampleSelect1">
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="form-group">
+                         <label for="exampleSelect1">Monto que deseas ahorrar</label>
+                         <div class="input-group">
+                            <div class="input-group-addon">$</div>
+                            <input type="text" class="form-control" id="exampleInputAmount" placeholder="Monto">
+                            <div class="input-group-addon">.00</div>
+                         </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="exampleSelect1">¿Número de años a recibir tu jubilación?</label>
+                        <select id ="juvi" class="form-control" id="exampleSelect1">
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="exampleSelect1">Monto a recibir mensualmente</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">$</div>
+                            <input class="form-control" id="disabledInput" type="text" disabled>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="exampleSelect1">Monto a recibir en una sola exhibición</label>
+                        <div class="input-group">
+                            <div id="disabledInput" class="input-group-addon">$</div>
+                            <input class="form-control" id="montoE" type="text" disabled>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                         <button id="btncal" type="button" class="btn btn-success btncalculo">   Calcular mi fondo de jubilación</button>
+                    </fieldset>
+                 </form>
+                  </div>
+                </div>
+                <!-- fin del formulario-->
+                <div class="col-md4">
+                    <div class="htam">
+                        <h1>
+                        La comunidad que <strong>asegura</strong><br>
+                        tu futuro y el de México.
+                        </h1>
+                    </div>
+                    <br><br>
+                    <h2>
+                        Asegura tu retiro con <strong>C4C</strong>
+                    </h2>
+                    <p>
+                        Somos el afore con mayor rendimiento del mercado. Transparente, amigable y seguro.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us Page
+    ==========================================-->
+    <div id="tf-about">
+        <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Conócenos</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/001.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h1 class="subheading">No dependas de otros para vivir tu futuro</h1>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">En <strong>C4C</strong> nos preocupamos por que vivas sin presiones. No te preocupes por tu dinero, nosotros nos aseguramos que tu dinero llegue a tiempo.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/002.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h1 class="subheading">Trabajaste mucho tiempo… ¡ahora disfruta!</h1>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Cuenta con un ingreso seguro en tu vejez,  no trabajes después de los 65 años.
+                                    El 60% de los habitantes en México no cuentan con un fondo de retiro y no saben de qué se van a mantener en su vejez.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/005.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h1 class="subheading">¡Tu dinero trabaja para ti, además de ayudar a los demás!</h1>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">En <strong>C4C</strong> invertimos tu dinero en créditos hipotecarios, los cuales son mucho menos riesgosos que invertir en bolsa como las demás afores.
+                                    Tenemos las comisiones más bajas del mercado. Esto es gracias a nuestras políticas de ganar - ganar. Ganas tú, ganamos todos.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/007.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h1 class="subheading">Tienes el seguimiento de tu <strong>Afore</strong> en cualquier lugar</h1>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Descarga nuestra app y realiza el seguimiento en tu celular.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/006.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h1 class="subheading">Asegura el bienestar de tu familia con nuestra cláusula de herederos.</h1>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Sin filas ni horarios fijos. Cargo automático a tu tarjeta de crédito. Contamos con las comisiones más bajas en el mercado.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+      <!-- Services Section
+    ==========================================-->
+    <div id="tf-services" class="text-center">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Tu dinero está seguro con<strong> nosotros</strong></h2>
+                <div class="line">
+                    <hr>
+                </div>
+                <div class="clearfix"></div>
+                <small><em>No invertimos en fondos que pongan en riesgo tu retiro. Sólo invertimos en créditos hipotecarios de C4C. En México el 66% de los habitantes no ahorran y solo el 7.2% lo hace pensando en su vejez. ¿Sabías que ahorrar debajo del colchón te hace perder dinero cada año? El 60% de los habitantes en México no cuentan con un fondo de retiro. 
+</em></small>
+            </div>
+            <div class="space"></div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 service">
+                    <i class="fa fa-question" aria-hidden="true"></i>
+                    <h4><strong>¿Por qué tener un fondo de retiro?</strong></h4>
+                    <p>Cuenta con un ingreso seguro en tu vejez. No trabajes después de los 65 años.Cubre tus gastos médicos.
+                    <strong>No dependas de otros para vivir tu futuro</strong>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 service">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    <h4><strong>¿Por qué ahorrar con C4C?</strong></h4>
+                    <p>Transparencia total en tu inversión. Invertimos tu dinero en fondos seguros. ¡Recibe un ingreso mayor a la cantidad que invertiste gracias a los intereses generados! Asegura el bienestar de tu familia con nuestra cláusula de herederos. Sin filas ni horarios fijos. Cargo automático a tu tarjeta de crédito. Contamos con las comisiones más bajas en el mercado.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 service">
+                    <i class="fa fa-street-view" aria-hidden="true"></i>
+                    <h4><strong>Empieza a ahorrar con nosotros</strong></h4>
+                    <p>Necesitamos:
+                        •	Original y copia de tu CURP.
+                        •	Original de la solicitud de Registro debidamente llenada.
+                        •	Documento de Rendimiento Neto.
+                        •	Original y copia de credencial para votar con fotografía expedida por el IFE, o cualquier otro documento oficial con fotografía, firma o huella digital.
+                        •	Original y copia de comprobante de domicilio con una antigüedad no mayor a tres meses.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section
+    ==========================================-->
+    <div id="tf-testimonials" class="text-center">
+        <div class="overlay">
+            <div class="container">
+                <div class="section-title center">
+                    <h2><strong>Descarga nuestra</strong> APP C4C<br><div class="imgh"><img src="img/apple.png">
+                        </div>
+                        </h2>
+                    <div class="line">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="imgd">
+                            <img src="img/i2.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="imgd">
+                            <img src="img/i3.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="imgd">
+                            <img src="img/i4.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section
+    ==========================================-->
+    <div id="tf-contact" class="text-center">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+
+                    <div class="section-title center">
+                        <h2><strong>contáctanos</strong></h2>
+                        <div class="line">
+                            <hr>
+                        </div>
+                        <div class="clearfix"></div>          
+                    </div>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingresa tu email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Mensaje</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn tf-btn btn-default">Enviar</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <nav id="footer">
+        <div class="container">
+            <div class="pull-left fnav">
+                <p>ALL RIGHTS RESERVED. COPYRIGHT © 2016. Designed by Team <strong>C4C</strong> 
+            </div>
+            <div class="pull-right fnav">
+                <ul class="footer-social">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="js/calculadora.js"></script>
+
+    <script src="js/owl.carousel.js"></script>
+
+    <!-- Javascripts
+    ================================================== -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>
